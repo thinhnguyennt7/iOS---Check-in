@@ -7,13 +7,25 @@
 //
 
 import UIKit
+import FirebaseAuth
 
 class ViewController3: UIViewController {
 
+    // Logout button logic
+    @IBAction func logout_Button(_ sender: Any) {
+        
+        // Logout
+        try! Auth.auth().signOut()
+        // Go back to login page
+        performSegue(withIdentifier: "logout_home", sender: self)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        // Get the current user login data
+        print(Auth.auth().currentUser?.email as Any)
     }
 
     override func didReceiveMemoryWarning() {
