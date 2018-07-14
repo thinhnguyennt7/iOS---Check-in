@@ -6,42 +6,39 @@
 //  Copyright © 2018 Thinh Nguyen. All rights reserved.
 //
 
+
+// CLIENT SIDE
 import UIKit
 import FirebaseAuth
 
 class ViewController3: UIViewController {
 
-    // Logout button logic
+    // Initalize the values
+    var current_uid:String!
+    
+    // Logout button method logic
     @IBAction func logout_Button(_ sender: Any) {
         
         // Logout
         try! Auth.auth().signOut()
         // Go back to login page
-        performSegue(withIdentifier: "logout_home", sender: self)
+        performSegue(withIdentifier: "home_View", sender: self)
+        print("Logout")
     }
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
         
         // Get the current user login data
         print(Auth.auth().currentUser?.email as Any)
+        
+        // Get the user UID
+        self.current_uid = Auth.auth().currentUser?.uid
+        print(self.current_uid as String)
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

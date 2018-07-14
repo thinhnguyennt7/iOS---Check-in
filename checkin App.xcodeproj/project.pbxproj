@@ -9,20 +9,19 @@
 /* Begin PBXBuildFile section */
 		AA456C2753030D5EB7F55A26 /* Pods_checkin_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E62AA7B4D96DFC4EB480F0F3 /* Pods_checkin_App.framework */; };
 		B20929ED20F6F52800963224 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20929EC20F6F52800963224 /* AppDelegate.swift */; };
-		B20929EF20F6F52800963224 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20929EE20F6F52800963224 /* ViewController.swift */; };
 		B20929F220F6F52800963224 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B20929F020F6F52800963224 /* Main.storyboard */; };
 		B20929F420F6F52A00963224 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B20929F320F6F52A00963224 /* Assets.xcassets */; };
 		B20929F720F6F52A00963224 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B20929F520F6F52A00963224 /* LaunchScreen.storyboard */; };
 		B20929FF20F6F5AC00963224 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B20929FE20F6F5AC00963224 /* GoogleService-Info.plist */; };
 		B2092A0120F7004300963224 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2092A0020F7004300963224 /* ViewController2.swift */; };
 		B2092A0520F7212000963224 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2092A0420F7212000963224 /* ViewController3.swift */; };
+		B22C4B1020F861B000C005AF /* ViewControllerLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22C4B0F20F861B000C005AF /* ViewControllerLogin.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0084948A8FEBF461D6DE19F5 /* Pods-checkin App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-checkin App.release.xcconfig"; path = "Pods/Target Support Files/Pods-checkin App/Pods-checkin App.release.xcconfig"; sourceTree = "<group>"; };
 		B20929E920F6F52800963224 /* checkin App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "checkin App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B20929EC20F6F52800963224 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B20929EE20F6F52800963224 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B20929F120F6F52800963224 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B20929F320F6F52A00963224 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B20929F620F6F52A00963224 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -30,6 +29,7 @@
 		B20929FE20F6F5AC00963224 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B2092A0020F7004300963224 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		B2092A0420F7212000963224 /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		B22C4B0F20F861B000C005AF /* ViewControllerLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerLogin.swift; sourceTree = "<group>"; };
 		E62AA7B4D96DFC4EB480F0F3 /* Pods_checkin_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_checkin_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBECD2731E88E29913E2907F /* Pods-checkin App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-checkin App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-checkin App/Pods-checkin App.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -85,8 +85,8 @@
 			isa = PBXGroup;
 			children = (
 				B20929EC20F6F52800963224 /* AppDelegate.swift */,
-				B20929EE20F6F52800963224 /* ViewController.swift */,
 				B20929F020F6F52800963224 /* Main.storyboard */,
+				B22C4B0F20F861B000C005AF /* ViewControllerLogin.swift */,
 				B2092A0420F7212000963224 /* ViewController3.swift */,
 				B2092A0020F7004300963224 /* ViewController2.swift */,
 				B20929F320F6F52A00963224 /* Assets.xcassets */,
@@ -194,12 +194,14 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-checkin App/Pods-checkin App-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -214,7 +216,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B20929EF20F6F52800963224 /* ViewController.swift in Sources */,
+				B22C4B1020F861B000C005AF /* ViewControllerLogin.swift in Sources */,
 				B20929ED20F6F52800963224 /* AppDelegate.swift in Sources */,
 				B2092A0520F7212000963224 /* ViewController3.swift in Sources */,
 				B2092A0120F7004300963224 /* ViewController2.swift in Sources */,
@@ -365,6 +367,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J6Y8A3TN4L;
 				INFOPLIST_FILE = "checkin App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -384,6 +387,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J6Y8A3TN4L;
 				INFOPLIST_FILE = "checkin App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

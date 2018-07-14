@@ -1,0 +1,69 @@
+{
+  "BTzEDtNXgdgqTkHM4UkXDmxM0Qh2" : {
+    "AllUser" : {
+      "1" : {
+      "Best_customer" : false,
+      "Dob" : "11-15-1997",
+      "Email" : "tnntech@vngs.net",
+      "Firstname" : "Thinh",
+      "Lastname" : "Nguyen",
+      "Number_visited" : 3,
+      "Phone" : 6788172100,
+      "Stamp_number" : 3
+    }, "2" : {
+      "Best-customer" : true,
+      "Dob" : "12-21-1990",
+      "Email" : "tnntech2",
+      "Firstname" : "Tien",
+      "Lastname" : "Ho",
+      "Number_visited" : 30,
+      "Phone" : 1234453432,
+      "Stamp_number" : 5
+    }, "3" : {
+      "Best-customer" : true,
+      "Dob" : "12-21-1991",
+      "Email" : "tnntech23",
+      "Firstname" : "Tuans",
+      "Lastname" : "Nguyen",
+      "Number_visited" : 20,
+      "Phone" : 1212,
+      "Stamp_number" : 2
+    }, "4" : {
+      "Best-customer" : true,
+      "Dob" : "12-21-1990",
+      "Email" : "tnntech2",
+      "Firstname" : "Dat",
+      "Lastname" : "Ho",
+      "Number_visited" : 3,
+      "Phone" : 1212,
+      "Stamp_number" : 3
+    }
+    },
+    "Today" : {
+      "1" : {
+      "Best_customer" : false,
+      "Dob" : "11-15-1997",
+      "Email" : "tnntech@vngs.net",
+      "Firstname" : "Thinh",
+      "Lastname" : "Nguyen",
+      "Number_visited" : 3,
+      "Phone" : 6788172100,
+      "Stamp_number" : 3
+    }, "2" : {
+      "Best-customer" : true,
+      "Dob" : "12-21-1990",
+      "Email" : "tnntech2",
+      "Firstname" : "Tien",
+      "Lastname" : "Ho",
+      "Number_visited" : 30,
+      "Phone" : 1234453432,
+      "Stamp_number" : 5
+    }
+    },
+    "Holidays": {
+      "1" : {
+        "FourthofJuly": 1212
+     }
+   }
+  }
+}
