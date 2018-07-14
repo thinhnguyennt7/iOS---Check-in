@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="70O-TQ-YBZ">
-    <device id="ipad10_5" orientation="portrait">
+    <device id="ipad10_5" orientation="landscape">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -16,17 +16,17 @@
             <objects>
                 <viewController id="70O-TQ-YBZ" customClass="ViewControllerLogin" customModule="checkin_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4Qe-lK-0zw">
-                        <rect key="frame" x="0.0" y="0.0" width="834" height="1112"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1112" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Path" translatesAutoresizingMaskIntoConstraints="NO" id="lWL-QW-DyX">
-                                <rect key="frame" x="43" y="288.5" width="748" height="535"/>
+                                <rect key="frame" x="182" y="149.5" width="748" height="535"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="lWL-QW-DyX" secondAttribute="height" multiplier="749:536" id="V2m-tV-zPo"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6IA-xI-R6l">
-                                <rect key="frame" x="327.5" y="787" width="179" height="60"/>
+                                <rect key="frame" x="466.5" y="648" width="179" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="guh-AP-4U7"/>
                                     <constraint firstAttribute="width" constant="179" id="nfB-r2-TuH"/>
@@ -37,21 +37,21 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="defaultAvatar" translatesAutoresizingMaskIntoConstraints="NO" id="hBI-Q4-CtU">
-                                <rect key="frame" x="345" y="335.5" width="144" height="138"/>
+                                <rect key="frame" x="484" y="196.5" width="144" height="138"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="144" id="8ub-LZ-qNw"/>
                                     <constraint firstAttribute="height" constant="138" id="YLq-Qf-Dtw"/>
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fillinBox" translatesAutoresizingMaskIntoConstraints="NO" id="uvq-iZ-LZB">
-                                <rect key="frame" x="150" y="534" width="534" height="76"/>
+                                <rect key="frame" x="289" y="395" width="534" height="76"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="76" id="H2E-IZ-vwq"/>
                                     <constraint firstAttribute="width" constant="534" id="W0J-X3-546"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EMAIL:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JBz-8q-lp8">
-                                <rect key="frame" x="173" y="558" width="69" height="27"/>
+                                <rect key="frame" x="312" y="419" width="69" height="27"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="69" id="ofH-qd-ad4"/>
                                     <constraint firstAttribute="height" constant="27" id="qZY-IJ-voa"/>
@@ -61,7 +61,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="    EXAMPLE@EMAIL.COM" minimumFontSize="18" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="iv5-BU-Bx0">
-                                <rect key="frame" x="261" y="550" width="365" height="44"/>
+                                <rect key="frame" x="400" y="411" width="365" height="44"/>
                                 <color key="backgroundColor" red="0.84705882352941175" green="0.84705882352941175" blue="0.84705882352941175" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -73,14 +73,14 @@
                                 <textInputTraits key="textInputTraits" autocorrectionType="yes" spellCheckingType="no" keyboardAppearance="alert" smartQuotesType="no" textContentType="email"/>
                             </textField>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fillinBox" translatesAutoresizingMaskIntoConstraints="NO" id="MSr-J1-cOh">
-                                <rect key="frame" x="150" y="637" width="534" height="76"/>
+                                <rect key="frame" x="289" y="498" width="534" height="76"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="76" id="IwW-Vg-1CD"/>
                                     <constraint firstAttribute="width" constant="534" id="qJp-hN-ijT"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PASS:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hlk-oF-woP">
-                                <rect key="frame" x="173" y="662" width="59" height="27"/>
+                                <rect key="frame" x="312" y="523" width="59" height="27"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="27" id="aiE-q3-N6O"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="59" id="iWf-Pb-4NW"/>
@@ -90,7 +90,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="    PASSWORD" textAlignment="natural" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="Y8D-Rn-4k6">
-                                <rect key="frame" x="261" y="653" width="365" height="44"/>
+                                <rect key="frame" x="400" y="514" width="365" height="44"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="365" id="589-sl-qXi"/>
                                     <constraint firstAttribute="height" constant="44" id="aOK-jS-dlI"/>
@@ -100,7 +100,7 @@
                                 <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardAppearance="alert" returnKeyType="continue" secureTextEntry="YES" smartInsertDeleteType="no" smartQuotesType="no" textContentType="password"/>
                             </textField>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="u8D-Md-DGJ">
-                                <rect key="frame" x="363" y="483" width="109" height="35"/>
+                                <rect key="frame" x="502" y="344" width="109" height="35"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="109" id="AUj-sT-xV0"/>
                                     <constraint firstAttribute="height" constant="34" id="usi-Ys-nIm"/>
@@ -111,7 +111,7 @@
                                 </segments>
                             </segmentedControl>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OTG-b2-cHp">
-                                <rect key="frame" x="173" y="736" width="511" height="21"/>
+                                <rect key="frame" x="312" y="597" width="511" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="511" id="6WW-Is-Cjt"/>
                                     <constraint firstAttribute="height" constant="21" id="9Q1-co-tX2"/>
@@ -173,11 +173,11 @@
             <objects>
                 <viewController id="MxN-sw-4Sf" customClass="ViewController2" customModule="checkin_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="J3k-Zb-4a7">
-                        <rect key="frame" x="0.0" y="0.0" width="834" height="1112"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1112" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B7g-el-8cm">
-                                <rect key="frame" x="737" y="39" width="57" height="30"/>
+                                <rect key="frame" x="1015" y="39" width="57" height="30"/>
                                 <state key="normal" title="Log out!"/>
                                 <connections>
                                     <action selector="logout_Button:" destination="MxN-sw-4Sf" eventType="touchUpInside" id="GjY-mO-NjC"/>
@@ -205,11 +205,11 @@
             <objects>
                 <viewController id="lth-8C-Vvf" customClass="ViewController3" customModule="checkin_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZnL-Pb-Qn8">
-                        <rect key="frame" x="0.0" y="0.0" width="834" height="1112"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1112" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IDd-Kh-lB2">
-                                <rect key="frame" x="927" y="40" width="57" height="30"/>
+                                <rect key="frame" x="927" y="40" width="145" height="30"/>
                                 <state key="normal" title="Log out!"/>
                                 <connections>
                                     <action selector="logout_Button:" destination="lth-8C-Vvf" eventType="touchUpInside" id="aGl-In-GsH"/>
